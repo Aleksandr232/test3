@@ -1,0 +1,25 @@
+.case{
+    position: absolute;
+    width: 1440px;
+    height: 1237px;
+    left: 0px;
+    top: 1253px;
+    overflow-y: scroll;
+    background: #0E0E0E;
+}
+
+.case_title{
+    position: absolute;
+    width: 136px;
+    height: 36px;
+    left: 134px;
+    top: 100px;
+
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
