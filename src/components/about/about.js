@@ -13,6 +13,8 @@ const About = () => {
         digital - маркетинга и креатива. Агентсво обладает крупнейшей
         инфраструктурой в социальных сетях в мире.
       </div>
+      <div className="contact">Связаться</div>
+        <div className="contact_me">Больше о нас</div>
     </section>
   );
 };

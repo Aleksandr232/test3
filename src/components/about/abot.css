@@ -53,5 +53,65 @@
 
 
 .ab{
-    
+    position: absolute;
+    width: 118px;
+    height: 36px;
+    left: 135px;
+    top: 930px;
+
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
+
+.abcent{
+    position: absolute;
+    width: 498px;
+    height: 120px;
+    left: 807px;
+    top: 930px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.contact{
+    position: absolute;
+    width: 118px;
+    height: 19px;
+    left: 820px;
+    top: 1134px;
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
+
+.contact_me{
+    position: absolute;
+    width: 150px;
+    height: 19px;
+    left: 995px;
+    top: 1134px;
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    cursor: pointer;
+
 }
