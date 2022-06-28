@@ -1,0 +1,57 @@
+.about{
+    width: 1440px;
+    height: 4394px;
+    background: #0E0E0E;
+}
+
+.text_title{
+    position: absolute;
+    width: 1021px;
+    height: 100px;
+    left: 405px;
+    top: 353px;
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 82px;
+    line-height: 100px;
+    color: #FFFFFF;
+    right: 210px;
+   
+
+   
+}
+
+
+.text_street{
+    position: absolute;
+    width: 249px;
+    height: 24px;
+    left: 135px;
+    top: 706px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.text_info{
+    position: absolute;
+    width: 105px;
+    height: 24px;
+    left: 1200px;
+    top: 706px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+
+.ab{
+    
+}
