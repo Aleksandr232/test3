@@ -1,0 +1,24 @@
+.asset{
+    position: absolute;
+    width: 1440px;
+    height: 790px;
+    left: 0px;
+    top: 2490px;
+    background: #001CAD;
+}
+
+.title_asset{
+    position: absolute;
+    width: 276px;
+    height: 36px;
+    left: 54px;
+    top: 52px;
+
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+
+    color: #FFFFFF;
+}
