@@ -1,32 +1,45 @@
 import React from "react";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import AliceCarousel from 'react-alice-carousel';
+import 'react-alice-carousel/lib/alice-carousel.css';
+
 import slide1 from './slideimg/slide1.png'
+import polslider from './slideimg/polslider.png'
+
+import './slider.css'
 
 
-const Slider=()=>{
-    return(
-        <Carousel>
-        <div>
-            <img src={slide1} />
-        </div>
-        <div>
-            <img src={slide1} />
-        </div>
-        <div>
-            <img src={slide1} />
-        </div>
-        <div>
-            <img src={slide1} />
-        </div>
-        <div>
-            <img src={slide1} />
-        </div>
-        <div>
-            <img src={slide1} />
-        </div>
-    </Carousel>
-    )
+const handleDragStart = (e) => e.preventDefault();
+
+const items = [
+    <div className="slides">
+         <img className="slide1" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+         <img className="slide2"  src={slide1} onDragStart={handleDragStart} role="presentation" />,
+         <img className="slide3" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+         <img className="slide4" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+         <img className="slide5" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+         <img className="slide6" src={polslider} onDragStart={handleDragStart} role="presentation" />,
+    </div>,
+    <div>
+    <img className="slide0" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+    <img className="slide2" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+    <img className="slide3" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+    <img className="slide4" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+    <img className="slide5" src={slide1} onDragStart={handleDragStart} role="presentation" />,
+    <img className="slide6" src={polslider} onDragStart={handleDragStart} role="presentation" />, 
+</div> 
+    
+
+    
+   
+    
+];
+
+const Gallery = () => {
+  return (
+    <AliceCarousel mouseTracking items={items}
+        
+    />
+  );
 }
 
-export default Slider
+export default Gallery

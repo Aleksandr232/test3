@@ -1,0 +1,76 @@
+.alice-carousel__dots {
+    margin: 30px 3px 5px;
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    visibility: hidden;
+}
+
+.alice-carousel__prev-btn {
+    text-align: right;
+    visibility: hidden;
+}
+
+.alice-carousel__prev-btn, .alice-carousel__next-btn {
+    display: inline-block;
+    box-sizing: border-box;
+    width: 50%;
+    padding: 10px 5px;
+    visibility: hidden;
+}
+
+.slide1{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 8px;
+    top: 4px;
+}
+
+.slide2{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 278px;
+    top: 4px;
+
+}
+
+.slide3{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 548px;
+    top: 4px;
+}
+
+.slide4{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 818px;
+    top: 4px;
+
+}
+
+.slide5{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 1088px;
+    top: 4px;
+}
+
+.slide6{
+    position: absolute;
+    width: 240px;
+    height: 494px;
+    left: 1358px;
+    top: 4px
+}
+
+.slides{
+    position: absolute;
+    top: 148px;
+    height: 498px;
+}
