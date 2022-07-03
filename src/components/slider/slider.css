@@ -76,3 +76,87 @@
     margin: 143px 0px;
     direction: ltr;
 }
+
+.textslide{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 93px;
+    top: 236px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.textslide1{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 363px;
+    top: 236px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.textslide2{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 633px;
+    top: 236px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.textslide3{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 903px;
+    top: 236px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.textslide4{
+    position: absolute;
+    width: 70px;
+    height: 30px;
+    left: 1173px;
+    top: 236px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 30px;
+
+    color: #FFFFFF;
+}
+
+.slide0{
+    visibility: hidden;
+}
