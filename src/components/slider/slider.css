@@ -24,7 +24,7 @@
     width: 240px;
     height: 494px;
     left: 8px;
-    top: 4px;
+    
 }
 
 .slide2{
@@ -66,11 +66,13 @@
     width: 240px;
     height: 494px;
     left: 1358px;
-    top: 4px
+    top: 4px;
+    
 }
 
-.slides{
-    position: absolute;
-    top: 148px;
-    height: 498px;
+.alice-carousel {
+    position: relative;
+    width: 100%;
+    margin: 143px 0px;
+    direction: ltr;
 }
