@@ -10,7 +10,6 @@ const Asset=()=>{
     <div className="asset">
         <div className="title_asset">Наши активы</div>
             <Gallery/>
-           
     </div>
     )
 }

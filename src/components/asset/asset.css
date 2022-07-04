@@ -23,3 +23,18 @@
     color: #FFFFFF;
 }
 
+.title_client{
+    position: absolute;
+    width: 302px;
+    height: 36px;
+    left: 135px;
+    top: 890px;
+
+    font-family: 'Druk Wide Cyr';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 36px;
+    color: #FFFFFF;
+
+}
