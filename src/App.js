@@ -4,6 +4,7 @@ import About from "./components/about/about";
 import Case from "./components/case/case";
 import Asset from "./components/asset/asset";
 import Client from "./components/clien/client";
+import Footer from "./components/footer/footer";
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
     <Case/>
     <Asset/>
     <Client/>
+    <Footer/>
     </>
   );
 }
