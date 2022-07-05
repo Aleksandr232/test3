@@ -1,4 +1,5 @@
 import React from "react";
+import arrow from './arrow.png'
 
 
 import './footer.css'
@@ -17,6 +18,10 @@ const Footer=()=>{
             <input className="phone" type="text" placeholder="Телефон" />
             <input className="question" type="text" color="white" placeholder="Что вы ищете" />
             <input className="message" type="text" placeholder="Сообщения" />
+            <div className="round_btn">
+               <div className="round_mes">Отправить</div>
+                <img className="arrow" src={arrow} alt="" />
+            </div>
 
         </div>
     )
