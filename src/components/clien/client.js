@@ -16,6 +16,7 @@ import './client.css'
 const Client=()=>{
     return(
         <div className="group" >
+            <div className="clients">Наши клиенты</div>
             <img className="img_group1" src={frame34} alt="" />
             <img className="img_group2" src={frame35} alt="" />
             <img className="img_group3" src={frame36} alt="" />
