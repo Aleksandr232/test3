@@ -1,9 +1,30 @@
 .img_group1{
     position: absolute;
-    top: 200px;
+    top: 186px;
+    
+}
+
+.img_group2{
+    position: absolute;
+    top: 280px;
+   
+}
+
+.img_group3{
+    position: absolute;
+    top: 374px;
+    
+    
+}
+
+.img_group4{
+    position: absolute;
+    top: 458px;
+    
 }
 
 .group{
     position: absolute;
     top:  3296px;
+    
 }
