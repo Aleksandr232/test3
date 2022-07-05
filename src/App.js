@@ -6,16 +6,18 @@ import Asset from "./components/asset/asset";
 import Client from "./components/clien/client";
 import Footer from "./components/footer/footer";
 
+import './App.css'
+
 function App() {
   return (
-    <>
-    <Header/>
-    <About/>
-    <Case/>
-    <Asset/>
-    <Client/>
-    <Footer/>
-    </>
+      <>
+        <Header/>
+        <About/>
+        <Case/>
+        <Asset/>
+        <Client/>
+        <Footer/>
+      </>
   );
 }
 
